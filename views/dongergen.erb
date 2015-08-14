@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+   <title>Your Donger</title>
+   <link rel="stylesheet" href="css/style.css" type="text/css">
+   <link rel="stylesheet" href="css/animate.css">
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+ </head>
+ <body>
+    <div id="top" class="wow slideInDown">
+      <h1>Your Donger!</h1>
+    </div>
+   <div id="result" class="wow zoomIn">
+     <h2 class="yourdonger"><%= @race[0] + @eyes + @mouth + @eyes + @race[1]%></h2>
+   </div>
+   <div class="sec wow slideInUp">
+     <a class="button" href="/">Raise Another Donger</a>
+   </div>
+ </body>
+</html>
